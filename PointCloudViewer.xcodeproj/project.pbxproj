@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525F5CCF2C39CDA2007827E8 /* PointCloudViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F5CCE2C39CDA2007827E8 /* PointCloudViewerApp.swift */; };
+		525F5CD12C39CDA2007827E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F5CD02C39CDA2007827E8 /* ContentView.swift */; };
+		525F5CD32C39CDA3007827E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525F5CD22C39CDA3007827E8 /* Assets.xcassets */; };
+		525F5CD62C39CDA3007827E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525F5CD52C39CDA3007827E8 /* Preview Assets.xcassets */; };
+		525F5CE02C39CDA3007827E8 /* PointCloudViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F5CDF2C39CDA3007827E8 /* PointCloudViewerTests.swift */; };
+		525F5CEA2C39CDA3007827E8 /* PointCloudViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F5CE92C39CDA3007827E8 /* PointCloudViewerUITests.swift */; };
+		525F5CEC2C39CDA3007827E8 /* PointCloudViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F5CEB2C39CDA3007827E8 /* PointCloudViewerUITestsLaunchTests.swift */; };
+		525F5CFB2C39CEB9007827E8 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F5CFA2C39CEB9007827E8 /* SceneKitView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525F5CDC2C39CDA3007827E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525F5CC32C39CDA2007827E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525F5CCA2C39CDA2007827E8;
+			remoteInfo = PointCloudViewer;
+		};
+		525F5CE62C39CDA3007827E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525F5CC32C39CDA2007827E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525F5CCA2C39CDA2007827E8;
+			remoteInfo = PointCloudViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		525F5CCB2C39CDA2007827E8 /* PointCloudViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointCloudViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525F5CCE2C39CDA2007827E8 /* PointCloudViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudViewerApp.swift; sourceTree = "<group>"; };
+		525F5CD02C39CDA2007827E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		525F5CD22C39CDA3007827E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525F5CD52C39CDA3007827E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		525F5CDB2C39CDA3007827E8 /* PointCloudViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointCloudViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525F5CDF2C39CDA3007827E8 /* PointCloudViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudViewerTests.swift; sourceTree = "<group>"; };
+		525F5CE52C39CDA3007827E8 /* PointCloudViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PointCloudViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525F5CE92C39CDA3007827E8 /* PointCloudViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudViewerUITests.swift; sourceTree = "<group>"; };
+		525F5CEB2C39CDA3007827E8 /* PointCloudViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		525F5CFA2C39CEB9007827E8 /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525F5CC82C39CDA2007827E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525F5CD82C39CDA3007827E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525F5CE22C39CDA3007827E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525F5CC22C39CDA2007827E8 = {
+			isa = PBXGroup;
+			children = (
+				525F5CCD2C39CDA2007827E8 /* PointCloudViewer */,
+				525F5CDE2C39CDA3007827E8 /* PointCloudViewerTests */,
+				525F5CE82C39CDA3007827E8 /* PointCloudViewerUITests */,
+				525F5CCC2C39CDA2007827E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525F5CCC2C39CDA2007827E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525F5CCB2C39CDA2007827E8 /* PointCloudViewer.app */,
+				525F5CDB2C39CDA3007827E8 /* PointCloudViewerTests.xctest */,
+				525F5CE52C39CDA3007827E8 /* PointCloudViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525F5CCD2C39CDA2007827E8 /* PointCloudViewer */ = {
+			isa = PBXGroup;
+			children = (
+				525F5CCE2C39CDA2007827E8 /* PointCloudViewerApp.swift */,
+				525F5CD02C39CDA2007827E8 /* ContentView.swift */,
+				525F5CD22C39CDA3007827E8 /* Assets.xcassets */,
+				525F5CD42C39CDA3007827E8 /* Preview Content */,
+				525F5CFA2C39CEB9007827E8 /* SceneKitView.swift */,
+			);
+			path = PointCloudViewer;
+			sourceTree = "<group>";
+		};
+		525F5CD42C39CDA3007827E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				525F5CD52C39CDA3007827E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		525F5CDE2C39CDA3007827E8 /* PointCloudViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				525F5CDF2C39CDA3007827E8 /* PointCloudViewerTests.swift */,
+			);
+			path = PointCloudViewerTests;
+			sourceTree = "<group>";
+		};
+		525F5CE82C39CDA3007827E8 /* PointCloudViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525F5CE92C39CDA3007827E8 /* PointCloudViewerUITests.swift */,
+				525F5CEB2C39CDA3007827E8 /* PointCloudViewerUITestsLaunchTests.swift */,
+			);
+			path = PointCloudViewerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525F5CCA2C39CDA2007827E8 /* PointCloudViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525F5CEF2C39CDA3007827E8 /* Build configuration list for PBXNativeTarget "PointCloudViewer" */;
+			buildPhases = (
+				525F5CC72C39CDA2007827E8 /* Sources */,
+				525F5CC82C39CDA2007827E8 /* Frameworks */,
+				525F5CC92C39CDA2007827E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PointCloudViewer;
+			productName = PointCloudViewer;
+			productReference = 525F5CCB2C39CDA2007827E8 /* PointCloudViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525F5CDA2C39CDA3007827E8 /* PointCloudViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525F5CF22C39CDA3007827E8 /* Build configuration list for PBXNativeTarget "PointCloudViewerTests" */;
+			buildPhases = (
+				525F5CD72C39CDA3007827E8 /* Sources */,
+				525F5CD82C39CDA3007827E8 /* Frameworks */,
+				525F5CD92C39CDA3007827E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525F5CDD2C39CDA3007827E8 /* PBXTargetDependency */,
+			);
+			name = PointCloudViewerTests;
+			productName = PointCloudViewerTests;
+			productReference = 525F5CDB2C39CDA3007827E8 /* PointCloudViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525F5CE42C39CDA3007827E8 /* PointCloudViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525F5CF52C39CDA3007827E8 /* Build configuration list for PBXNativeTarget "PointCloudViewerUITests" */;
+			buildPhases = (
+				525F5CE12C39CDA3007827E8 /* Sources */,
+				525F5CE22C39CDA3007827E8 /* Frameworks */,
+				525F5CE32C39CDA3007827E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525F5CE72C39CDA3007827E8 /* PBXTargetDependency */,
+			);
+			name = PointCloudViewerUITests;
+			productName = PointCloudViewerUITests;
+			productReference = 525F5CE52C39CDA3007827E8 /* PointCloudViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525F5CC32C39CDA2007827E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					525F5CCA2C39CDA2007827E8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					525F5CDA2C39CDA3007827E8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 525F5CCA2C39CDA2007827E8;
+					};
+					525F5CE42C39CDA3007827E8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 525F5CCA2C39CDA2007827E8;
+					};
+				};
+			};
+			buildConfigurationList = 525F5CC62C39CDA2007827E8 /* Build configuration list for PBXProject "PointCloudViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525F5CC22C39CDA2007827E8;
+			productRefGroup = 525F5CCC2C39CDA2007827E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525F5CCA2C39CDA2007827E8 /* PointCloudViewer */,
+				525F5CDA2C39CDA3007827E8 /* PointCloudViewerTests */,
+				525F5CE42C39CDA3007827E8 /* PointCloudViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525F5CC92C39CDA2007827E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525F5CD62C39CDA3007827E8 /* Preview Assets.xcassets in Resources */,
+				525F5CD32C39CDA3007827E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525F5CD92C39CDA3007827E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525F5CE32C39CDA3007827E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525F5CC72C39CDA2007827E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525F5CD12C39CDA2007827E8 /* ContentView.swift in Sources */,
+				525F5CFB2C39CEB9007827E8 /* SceneKitView.swift in Sources */,
+				525F5CCF2C39CDA2007827E8 /* PointCloudViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525F5CD72C39CDA3007827E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525F5CE02C39CDA3007827E8 /* PointCloudViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525F5CE12C39CDA3007827E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525F5CEA2C39CDA3007827E8 /* PointCloudViewerUITests.swift in Sources */,
+				525F5CEC2C39CDA3007827E8 /* PointCloudViewerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525F5CDD2C39CDA3007827E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525F5CCA2C39CDA2007827E8 /* PointCloudViewer */;
+			targetProxy = 525F5CDC2C39CDA3007827E8 /* PBXContainerItemProxy */;
+		};
+		525F5CE72C39CDA3007827E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525F5CCA2C39CDA2007827E8 /* PointCloudViewer */;
+			targetProxy = 525F5CE62C39CDA3007827E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		525F5CED2C39CDA3007827E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525F5CEE2C39CDA3007827E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525F5CF02C39CDA3007827E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PointCloudViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = JX48BT6S87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shubhp.PointCloudViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525F5CF12C39CDA3007827E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PointCloudViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = JX48BT6S87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shubhp.PointCloudViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		525F5CF32C39CDA3007827E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX48BT6S87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shubhp.PointCloudViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointCloudViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointCloudViewer";
+			};
+			name = Debug;
+		};
+		525F5CF42C39CDA3007827E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX48BT6S87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shubhp.PointCloudViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PointCloudViewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PointCloudViewer";
+			};
+			name = Release;
+		};
+		525F5CF62C39CDA3007827E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX48BT6S87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shubhp.PointCloudViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PointCloudViewer;
+			};
+			name = Debug;
+		};
+		525F5CF72C39CDA3007827E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JX48BT6S87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shubhp.PointCloudViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PointCloudViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525F5CC62C39CDA2007827E8 /* Build configuration list for PBXProject "PointCloudViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525F5CED2C39CDA3007827E8 /* Debug */,
+				525F5CEE2C39CDA3007827E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525F5CEF2C39CDA3007827E8 /* Build configuration list for PBXNativeTarget "PointCloudViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525F5CF02C39CDA3007827E8 /* Debug */,
+				525F5CF12C39CDA3007827E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525F5CF22C39CDA3007827E8 /* Build configuration list for PBXNativeTarget "PointCloudViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525F5CF32C39CDA3007827E8 /* Debug */,
+				525F5CF42C39CDA3007827E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525F5CF52C39CDA3007827E8 /* Build configuration list for PBXNativeTarget "PointCloudViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525F5CF62C39CDA3007827E8 /* Debug */,
+				525F5CF72C39CDA3007827E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525F5CC32C39CDA2007827E8 /* Project object */;
+}
